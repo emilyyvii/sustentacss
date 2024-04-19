@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: garamond, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+#cabeçalho {
+    height: 22px;
+    background-color: black;
+    width:100%;
+    color: white;
+}
+
+#cabecalho {
+    height: 115px;
+    background-color: white;
+    width:100%;
+    color: black;
+}
+
+#cabecalhor {
+    height: 2px;
+    background-color: black;
+    width:100%px;
+}
+
+#separar {
+    height: 2px;
+    background-color: white;
+    width:100%px;
+}
+
+#texto {
+    height: 200px;
+    width: 765px;
+    background-color: #d3d3d3;
+    float: left;
+    margin-top: 10px;
+    margin-left: 400px;
+}
+
+#menu {
+    height: 400px;
+    width:334px;
+    background-color: white;
+    float:left;
+    margin-left: 92px;
+}
+
+#conteudo {
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    float: left;
+    
+}
+
+#lado {
+    height: 400px;
+    width: 334px;
+    background-color: white;
+    float: left;
+
+}
+
+#direito {
+    height: 400px;
+    width: 334px;
+    background-color: white;
+    float: left;
+    
+}
+
+#separa {
+    height: 2px;
+    background-color: black;
+    width:100%px;
+}
+
+img{
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+img:hover{
+    -webkit-transform:scale(1);
+    transform: scale(1.09);
+
+
+}
+
+#rodape {
+    height: 100px;
+    /*width: 300;*/
+    background-color: black;
+    clear: both;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
+ 
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: black;
+    text-align: center;
+}
